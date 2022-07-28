@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hub Spot Test Automation regression suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <test thread-count="5" name="Home Page Test(failed)" verbose="3">
+    <classes>
+      <class name="com.qa.hubspot.tests.HomePageTest">
+        <methods>
+          <include name="verifyloggedinuser"/>
+          <include name="verifypageheading"/>
+          <include name="setup"/>
+          <include name="homesetup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+  <test thread-count="5" name="Contact Page Test(failed)" verbose="3">
+    <classes>
+      <class name="com.qa.hubspot.tests.ContactsPageTest">
+        <methods>
+          <include name="verifycontactpageheader"/>
+          <include name="contactsetup"/>
+          <include name="verifycontactpagetitle"/>
+          <include name="setup"/>
+          <include name="creatinganewcontact"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.ContactsPageTest -->
+    </classes>
+  </test> <!-- Contact Page Test(failed) -->
+</suite> <!-- Failed suite [Hub Spot Test Automation regression suite] -->
